@@ -1,0 +1,19 @@
+class Room{
+	public static void main(String args[]){
+	
+	float height;
+	float width;
+	float breadth;
+	float volumeVariable;
+
+void volume(20.9,10.4,15){
+volumeVariable = height*width*breadth;
+System.out.println(volumeVariable);
+	}
+	}
+}
+
+class Building{
+
+Room r = new Room();
+rcalculate = r.volume
