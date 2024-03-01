@@ -1,0 +1,59 @@
+class Demo{
+	
+	public static void main(String args[]){
+
+	int a=100
+	
+
+	//IF ELSE STAEMENTS
+	//else if optional
+	
+	/*if(true/false/a==100){
+		System.out.println("if block");
+	}
+
+	else if{
+		System.out.println("else-if block");
+
+	}
+	//System.out.println("else-if block");     #error:else w/o if
+	else{
+		System.out.println("else block");
+
+	}*/
+
+
+
+	//SWITCH CASE
+	//byte, short, int, char, String
+	int a =5
+	switch(a){
+	case 5:	
+		System.out.println("case 5");
+		break;
+	
+	case 10:
+		System.out.println("case 10");
+		break;
+	
+	default :
+		System.out.println("case default");
+		break;
+	}
+	*/
+
+
+
+	
+	
+
+
+	
+
+
+	System.out.println("in main method");
+
+
+
+	}
+}

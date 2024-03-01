@@ -1,0 +1,55 @@
+//ACCESS MODIFIER
+
+class Student{
+/*private int rollNo;			//instance variables
+private int age;
+private float marks;
+
+protected int rollNo;			//instance variables
+private int age;
+private float marks;
+*/
+
+
+Student(){
+	rollNo = 0;
+	age = 21;
+	marks = 0.0f;
+}
+
+Student(int rollNo, int age, float marks){
+	//"THIS" OPERATOR
+	this.rollNo = rollNo;		//local variables
+	this.age = age;
+	this.marks = marks;
+}
+
+void studentDetails(){
+	System.out.println(roll no+" "+age+" "+marks);
+	}
+void show rollNo(){				//bad practice
+System.out.println(rollNo);
+}
+}
+	
+class StudentDemo{
+	public static void main(String args[]){
+
+	Student obj = new Student();
+	Student obj1 = new Student(1,23,70.5f);
+
+	//System.out.println("Student details: ");
+	//obj.studentDetails();
+	//obj1.studentDetails();
+
+	System.out.println("Student rollno: " + obj.rollNo);  
+	//student class se roll no lega aise obj lagake verna nai lega(w/o pvt)
+
+	//obj.showrollNo();  //bad practice
+	//obj1.showrollNo();
+
+
+
+
+}
+}

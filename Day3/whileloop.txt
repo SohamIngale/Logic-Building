@@ -1,0 +1,23 @@
+class Demo{
+	
+	public static void main(String args[]){
+	
+	while(true){
+		System.out.println("hello"); //infinite loop
+	}
+
+	int i= 1;
+	while(i<10){
+		System.out.println("hello"); //infinite loop
+		i++;
+	}
+
+
+
+
+
+
+
+	}
+
+}

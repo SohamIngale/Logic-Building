@@ -1,0 +1,54 @@
+//ARRAY
+
+
+class ArrayDemo{
+	
+	public static void main(String args[]){
+	int a1  =10;
+	int i = 11; j =111;
+	
+	//int a[] = {10,20,30};
+	//int[] a = {10,20,30};
+	//float[] f = {10.0f,20.0f,30.0f};
+
+	int a[] = new int[3];
+	/*a[0]=10;              	//wrong way
+	a[1]=20;
+	a[2]=30;
+	*/
+	
+	//For storing 
+	for(int i = 0; i<5; i++){
+		a[i]=10;
+	}
+	
+	//For output
+	for(int i = 0; i<5; i++){
+		System.out.println(a[i]);
+	}
+	
+	
+	System.out.println(a[1]);	
+	}	
+	}
+
+
+
+
+//ACCESS MODIFIER
+
+
+
+
+
+
+
+
+
+
+
+
+//SCANNER
+
+
+
